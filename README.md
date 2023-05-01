@@ -2,7 +2,7 @@
 # This project demonstrates how to submit a Pay for Blob (PFB) transaction on the Celestia Testnet using Keplr wallet and a simple web interface. It consists of a frontend application built with HTML, CSS, and JavaScript, and a backend server built with Node.js and Express.
 # DEMO
 
-  http://207.244.225.191:8081/#
+     http://207.244.225.191:8081/#
 
 Before you begin, make sure you have the following software installed on your system:
 
@@ -12,15 +12,15 @@ Keplr wallet browser extension
 # Getting Started
 Clone the repository:
 
-  git clone https://github.com/andreyT25/SubmitPayForBlob.git
+     git clone https://github.com/andreyT25/SubmitPayForBlob.git
 
 Go to the project directory:
 
-  cd SubmitPayForBlob
+     cd SubmitPayForBlob
 
 Install the necessary dependencies:
 
-  npm install
+     npm install
   
 Open your browser and go to http://localhost:8081
 
@@ -33,24 +33,24 @@ Using PM2
 
 Install PM2 globally:
 
-  npm install -g pm2
+     npm install -g pm2
 
 # Run your app by running the command:
 
-  npm run dev
+     npm run dev
 
 Now your app will run 24/7 even when you close the terminal. To check the status of your application, use the following command:
 
 
-  pm2 status
+    pm2 status
 
 If you want to stop your application, use the command:
 
-  pm2 stop all
+   pm2 stop all
 
 To restart your application:
 
-  pm2 restart all
+    pm2 restart all
 
 This will allow your application to run 24/7 even when the terminal is closed.
 For more information on how to use PM2, refer to the official documentation.
