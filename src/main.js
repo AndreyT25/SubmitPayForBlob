@@ -235,7 +235,7 @@ document.sendForm.onsubmit = async (event) => {
         const namespaceId = document.getElementById('namespaceId').value;
         const inputData = document.getElementById('data').value;
         const data = textToHex(inputData);
-        const apiUrl = 'http://207.244.225.191:3000/submit_pfb';
+        const apiUrl = 'http://localhost:3000/submit_pfb';
 
         const resultElement = document.getElementById('result');
         try {
