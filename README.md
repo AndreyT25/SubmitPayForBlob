@@ -42,15 +42,15 @@ Install PM2 globally:
 Now your app will run 24/7 even when you close the terminal. To check the status of your application, use the following command:
 
 
-    pm2 status
+     pm2 status
 
 If you want to stop your application, use the command:
 
-   pm2 stop all
+     pm2 stop all
 
 To restart your application:
 
-    pm2 restart all
+     pm2 restart all
 
 This will allow your application to run 24/7 even when the terminal is closed.
 For more information on how to use PM2, refer to the official documentation.
